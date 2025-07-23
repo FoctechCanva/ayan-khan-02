@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, CallbackContext
 from telegram.constants import ParseMode
 
 # Bot Configuration
-BOT_TOKEN = os.getenv("8031287037:AAHvhktR7r2SwQn7GJuQRVrLIS759eLf6ao")
+BOT_TOKEN = os.getenv()
 IMAGE_URL = "https://i.ibb.co/0nXwKZJ/ad-banner.jpg"  # Replace with your image URL
 CAPTION = """
 🔍 Stable Daily USDT Earnings 🔍
@@ -22,13 +22,7 @@ Join All Channel's Claim Fastt 🌤️ 14:21
 
 # Button Configuration - Replace with your actual Telegram invite links
 BUTTONS = [
-    {"text": "Join 💬️", "https://t.me/+ubKdvq2fjv1lM2Q1"},
-    {"text": "Join 💬️", "https://t.me/+ubKdvq2fjv1lM2Q1"},
-    {"text": "Join 💬️", "https://t.me/+ubKdvq2fjv1lM2Q1"},
-    {"text": "Join 💬️", "https://t.me/+ubKdvq2fjv1lM2Q1"},
-    {"text": "Join 💬️", "https://t.me/+ubKdvq2fjv1lM2Q1"},
-    {"text": "Join 💬️", "https://t.me/+ubKdvq2fjv1lM2Q1"},
-    {"text": "⭐️ Claim ⭐️", "https://t.me/+ubKdvq2fjv1lM2Q1"}
+
 ]
 
 # Set up logging
